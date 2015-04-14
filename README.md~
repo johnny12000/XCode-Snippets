@@ -5,7 +5,7 @@ Useful snippets for XCode
 
 1. Clone repository to your CodeSnippets folder: ~/Library/Developer/Xcode/UserData/CodeSnippets
 
-```console
+'''console
 git clone https://github.com/johnny12000/XCode-Snippets.git CodeSnippets
-```
+'''
 
