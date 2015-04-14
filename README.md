@@ -9,3 +9,8 @@ Useful snippets for XCode
 git clone https://github.com/johnny12000/XCode-Snippets.git CodeSnippets
 ```
 
+## List of Snippets
+
+- 1A8FC1FC-733A-404D-B9A0-3ABC055E0EBA.codesnippet - Prepare for Segue
+- 441307B9-C05F-4D04-8C02-81C1520494D2.codesnippet - Method Header Comment
+- 795E1DDD-24A4-4A0E-B0A3-5B2A64631034.codesnippet - Get Reusable Cell in Table
