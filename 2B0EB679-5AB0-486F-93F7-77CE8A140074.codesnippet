@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>normalizeImage</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>UIImage* result = [[UIImage alloc] init];
+
+CGSize size = CGSizeMake(&lt;#width#&gt;, &lt;#height#&gt;);
+//create drawing context
+UIGraphicsBeginImageContextWithOptions(size, NO, 0.0f);
+//draw
+[&lt;#image#&gt; drawInRect:CGRectMake(0.0f, 0.0f, size.width, size.height)];
+//capture resultant image
+result = UIGraphicsGetImageFromCurrentImageContext();
+UIGraphicsEndImageContext();</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>2B0EB679-5AB0-486F-93F7-77CE8A140074</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Makes an image of a certain size based on the other image</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Normalized Image</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
