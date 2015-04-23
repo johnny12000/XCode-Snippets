@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>screenResolutions</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>CGSize iOSDeviceScreenSize = [[UIScreen mainScreen] nativeBounds].size;
+
+switch ((int)iOSDeviceScreenSize.height) {
+    case 480://iPhone 1st Gen, 3G &amp; 3GS
+        &lt;#code#&gt;
+        break;
+    case 960://iPhone 4 &amp; 4S
+        &lt;#code#&gt;
+        break;
+    case 1136://iPhone 5, 5C &amp; 5S
+        &lt;#code#&gt;
+        break;
+    case 1334://iPhone 6
+        &lt;#code#&gt;
+        break;
+    case 2208://iPhone 6 Plus
+        &lt;#code#&gt;
+        break;
+    default:
+        &lt;#code#&gt;
+        break;
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>3AD6A987-1971-4DF4-8093-C851D1BD8708</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>If statements for different screen resolutions</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Screen Resolution</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
