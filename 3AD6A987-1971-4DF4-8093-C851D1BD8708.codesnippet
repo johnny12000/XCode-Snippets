@@ -9,7 +9,8 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>CGSize iOSDeviceScreenSize = [[UIScreen mainScreen] nativeBounds].size;
+	<string>//CGSize iOSDeviceScreenSize = [[UIScreen mainScreen] nativeBounds].size;
+CGSize iOSDeviceScreenSize = [UIScreen mainScreen].currentMode.size;
 
 switch ((int)iOSDeviceScreenSize.height) {
     case 480://iPhone 1st Gen, 3G &amp; 3GS
