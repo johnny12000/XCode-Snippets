@@ -21,3 +21,4 @@ git clone https://github.com/johnny12000/XCode-Snippets.git CodeSnippets
 | CB1439CF-DDC2-47B9-8ED7-BA4BC487286D | Hide keyboard on touch anywhere |
 | FF32FA07-87C4-4288-8D21-16C365A45A0D | Serializes object to string |
 | DAE1CC92-3B1F-4AD9-B5E7-3E697F757DC9 | Capture a weak reference to self for block |
+| 9B2898F0-0BA0-4942-9FA1-BB675C62CAD2 | Singleton pattern |

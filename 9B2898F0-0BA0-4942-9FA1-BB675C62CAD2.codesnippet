@@ -3,24 +3,31 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>weakself</string>
+	<string>singleton</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>&lt;#ObjectType#&gt; * __weak weakSelf = self;</string>
+	<string>+ (&lt;#Class#&gt;*) sharedInstance {
+    static &lt;#Class#&gt;* instance = nil;
+    static dispatch_once_t onceToken;
+    dispatch_once(&amp;onceToken, ^{
+        instance = [&lt;#Class#&gt; new];
+    });
+    return instance;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>DAE1CC92-3B1F-4AD9-B5E7-3E697F757DC9</string>
+	<string>9B2898F0-0BA0-4942-9FA1-BB675C62CAD2</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Creates weak self reference</string>
+	<string>Singleton pattern</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Weak Self</string>
+	<string>Singleton</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
