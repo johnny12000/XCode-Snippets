@@ -22,3 +22,4 @@ git clone https://github.com/johnny12000/XCode-Snippets.git CodeSnippets
 | FF32FA07-87C4-4288-8D21-16C365A45A0D | Serializes object to string |
 | DAE1CC92-3B1F-4AD9-B5E7-3E697F757DC9 | Capture a weak reference to self for block |
 | 9B2898F0-0BA0-4942-9FA1-BB675C62CAD2 | Singleton pattern |
+| 2CE4894B-5828-40DC-A69F-FF37E5FF33AA | Table delegate and source methods |
