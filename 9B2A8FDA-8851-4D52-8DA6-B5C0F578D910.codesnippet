@@ -9,21 +9,19 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string> /**
- *  &lt;#description#&gt;
- *
- *  @param &lt;#name#&gt; &lt;#description#&gt;
- *
- *  @return &lt;#return value#&gt;
- *
- *  @see &lt;#reference#&gt;
+	<string>/**
+ &lt;#Description#&gt;.
+ 
+ @param &lt;#name#&gt; &lt;#Description#&gt;
+ 
+ @return &lt;#Description#&gt;.
  */</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>441307B9-C05F-4D04-8C02-81C1520494D2</string>
+	<string>9B2A8FDA-8851-4D52-8DA6-B5C0F578D910</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Comment header for a method</string>
+	<string>Swift comment</string>
 	<key>IDECodeSnippetTitle</key>
 	<string>Comment</string>
 	<key>IDECodeSnippetUserSnippet</key>
