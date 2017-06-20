@@ -3,37 +3,28 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>hideKeyboard</string>
+	<string>singleton</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
-    
-    UITouch *touch = [[event allTouches] anyObject];
-    
-    NSArray *items = [NSArray arrayWithObjects:self.item1, self.item2, nil];
-    
-    for(id item in items)
-    {
-        UITextField *field = (UITextField*)item;
-        
-        if ([field isFirstResponder] &amp;&amp; [touch view] != field) {
-            [field resignFirstResponder];
-        }
-    }
-    
-    [super touchesBegan:touches withEvent:event];
+	<string>+ (&lt;#Class#&gt;*) sharedInstance {
+    static &lt;#Class#&gt;* instance = nil;
+    static dispatch_once_t onceToken;
+    dispatch_once(&amp;onceToken, ^{
+        instance = [&lt;#Class#&gt; new];
+    });
+    return instance;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>CB1439CF-DDC2-47B9-8ED7-BA4BC487286D</string>
+	<string>9B2898F0-0BA0-4942-9FA1-BB675C62CAD2</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Hides keyboard on view</string>
+	<string>Singleton pattern</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Hide Keyboard</string>
+	<string>Singleton</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

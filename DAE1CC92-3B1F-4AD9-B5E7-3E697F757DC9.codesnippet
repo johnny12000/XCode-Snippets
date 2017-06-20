@@ -3,29 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>comment</string>
+	<string>weakself</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string> /**
- *  &lt;#description#&gt;
- *
- *  @param &lt;#name#&gt; &lt;#description#&gt;
- *
- *  @return &lt;#return value#&gt;
- *
- *  @see &lt;#reference#&gt;
- */</string>
+	<string>&lt;#ObjectType#&gt; * __weak weakSelf = self;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>441307B9-C05F-4D04-8C02-81C1520494D2</string>
+	<string>DAE1CC92-3B1F-4AD9-B5E7-3E697F757DC9</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Comment header for a method</string>
+	<string>Creates weak self reference</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Comment</string>
+	<string>Weak Self</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>dictionaryToJSON</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>NSError *error;
+NSData *jsonData = [NSJSONSerialization dataWithJSONObject:&lt;#dictionary#&gt; options:0 error:&amp;error];
+        
+        if (!jsonData) {
+            NSLog(@"JSON error: %@", error);
+        } else {
+            NSString *JSONString = [[NSString alloc] initWithBytes:[jsonData bytes] length:[jsonData length] encoding:NSUTF8StringEncoding];
+            NSLog(@"--------------------------------------------------------");
+            NSLog(@"JSON OUTPUT: %@",JSONString);
+            NSLog(@"--------------------------------------------------------");
+        }
+        
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>FF32FA07-87C4-4288-8D21-16C365A45A0D</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Converts NSDictionary to JSON String</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Dictionary to JSON</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
